@@ -11,9 +11,9 @@ public class Communication implements Runnable {
 	private Socket socket;
 	private Protocol protocol;
 	private final int serverPort = 50000;
-	private final String serverIP = "188.149.252.208";
+	private final String serverIP = "192.168.1.75";
 	private final int clientPort;
-	private final String clientIP = "192.168.0.37";
+	private final String clientIP = "192.168.1.75";
 	private DataInputStream dataInputStream;
 	private DataOutputStream dataOutputStream;
 	private final boolean DEBUG = false;
